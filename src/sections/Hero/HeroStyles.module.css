@@ -75,7 +75,7 @@
 }
 
 .description {
-    max-width: 24ch;
+    width: 100%;
 
 }
 
@@ -83,7 +83,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    text-align: center;
+    max-width: 400px; /* Adjust this value as needed */
+    margin: 0 auto;
 }
 
 @media (width >= 800px){
@@ -105,6 +109,13 @@
             max-width: 400px;
             width: 400px;
         }
+    }
+}
+
+@media (max-width: 799px) {
+    .description {
+        max-width: 24ch;
+        margin: 0 auto;
     }
 }
     
