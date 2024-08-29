@@ -1,11 +1,14 @@
 .container {
     text-align: center;
-    p {
-        font-size: 16px;
-        color: var(--footer-text-color);
-    }
-    h5 {
-        font-size: 12px;
-        color: var(--footer-text-color);
-    }
+    padding-bottom: 0px; /* Adjust as needed */
+}
+
+.copyright {
+    font-size: 16px;
+    margin-bottom: 100px; /* Adjust as needed */
+}
+
+.inspiredBy {
+    font-size: 12px;
+    color: var(--footer-text-color);
 }
