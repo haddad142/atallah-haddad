@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from "../../assets/hipsster.png";
-// import stockmarket from "../../assets/stock_market.png";
+import soooccer from "../../assets/football_project.png";
+import stockoo from "../../assets/stock_market.png";
+import taktik from "../../assets/taktik.png";
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle"> Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/projectlink"
-          h3="project 1"
-          p="Discription of the project"
+          src={soooccer}
+          link="https://github.com/haddad142/soccer_prediction"
+          h3="Soooccer"
+          p="Predicting Soccer Winner"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/projectlink"
-          h3="project 2"
-          p="Discription of the project"
+          src={stockoo}
+          link="https://github.com/haddad142/Stock-Market-Prediction"
+          h3="Stockoo"
+          p="Predicting Stock Market"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/projectlink"
-          h3="project 2"
-          p="Discription of the project"
-        />
-        <ProjectCard
-          src={freshBurger}
-          link="https://github.com/projectlink"
-          h3="project 2"
-          p="Discription of the project"
+          src={taktik}
+          link="https://github.com/haddad142"
+          h3="TakTik"
+          p="Soccer Analysis System (ongoing)"
         />
       </div>
     </section>
